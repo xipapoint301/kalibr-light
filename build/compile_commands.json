@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/xipap/kalibr-light/build",
+  "command": "/usr/lib/ccache/c++  -isystem /usr/include/opencv4 -isystem /usr/local/include/eigen3 -isystem /usr/local/include/ceres/internal/miniglog -isystem /home/xipap/kalibr-light/libs/Sophus -O3 -DNDEBUG -Wall -Wextra -Wpedantic -std=c++17 -o CMakeFiles/kalibr_light.dir/src/main.cpp.o -c /home/xipap/kalibr-light/src/main.cpp",
+  "file": "/home/xipap/kalibr-light/src/main.cpp"
+}
+]

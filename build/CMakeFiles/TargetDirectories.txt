@@ -1,0 +1,3 @@
+/home/xipap/kalibr-light/build/CMakeFiles/kalibr_light.dir
+/home/xipap/kalibr-light/build/CMakeFiles/edit_cache.dir
+/home/xipap/kalibr-light/build/CMakeFiles/rebuild_cache.dir

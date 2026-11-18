@@ -1,0 +1,55 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/xipap/kalibr-light/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_986ba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_986ba.dir/build.make CMakeFiles/cmTC_986ba.dir/build
+gmake[1]: Entering directory '/home/xipap/kalibr-light/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_986ba.dir/CheckFunctionExists.cxx.o
+/usr/lib/ccache/c++   -DCHECK_FUNCTION_EXISTS=sgemm_ -std=c++17 -o CMakeFiles/cmTC_986ba.dir/CheckFunctionExists.cxx.o -c /home/xipap/kalibr-light/build/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_986ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_986ba.dir/link.txt --verbose=1
+/usr/lib/ccache/c++  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_986ba.dir/CheckFunctionExists.cxx.o -o cmTC_986ba 
+/usr/bin/ld: CMakeFiles/cmTC_986ba.dir/CheckFunctionExists.cxx.o: in function `main':
+CheckFunctionExists.cxx:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_986ba.dir/build.make:99: cmTC_986ba] Error 1
+gmake[1]: Leaving directory '/home/xipap/kalibr-light/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_986ba/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/xipap/kalibr-light/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b7b0f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b7b0f.dir/build.make CMakeFiles/cmTC_b7b0f.dir/build
+gmake[1]: Entering directory '/home/xipap/kalibr-light/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b7b0f.dir/CheckFunctionExists.cxx.o
+/usr/lib/ccache/c++   -DCHECK_FUNCTION_EXISTS=cheev_ -std=c++17 -o CMakeFiles/cmTC_b7b0f.dir/CheckFunctionExists.cxx.o -c /home/xipap/kalibr-light/build/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_b7b0f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7b0f.dir/link.txt --verbose=1
+/usr/lib/ccache/c++  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_b7b0f.dir/CheckFunctionExists.cxx.o -o cmTC_b7b0f  /usr/lib/x86_64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_b7b0f.dir/CheckFunctionExists.cxx.o: in function `main':
+CheckFunctionExists.cxx:(.text+0x14): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_b7b0f.dir/build.make:100: cmTC_b7b0f] Error 1
+gmake[1]: Leaving directory '/home/xipap/kalibr-light/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b7b0f/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/xipap/kalibr-light/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_189bd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_189bd.dir/build.make CMakeFiles/cmTC_189bd.dir/build
+gmake[1]: Entering directory '/home/xipap/kalibr-light/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_189bd.dir/CheckFunctionExists.cxx.o
+/usr/lib/ccache/c++   -DCHECK_FUNCTION_EXISTS=cheev_ -std=c++17 -o CMakeFiles/cmTC_189bd.dir/CheckFunctionExists.cxx.o -c /home/xipap/kalibr-light/build/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_189bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_189bd.dir/link.txt --verbose=1
+/usr/lib/ccache/c++  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_189bd.dir/CheckFunctionExists.cxx.o -o cmTC_189bd  /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libblas.so -fortranlibs 
+c++: error: unrecognized command-line option ‘-fortranlibs’
+gmake[1]: *** [CMakeFiles/cmTC_189bd.dir/build.make:101: cmTC_189bd] Error 1
+gmake[1]: Leaving directory '/home/xipap/kalibr-light/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_189bd/fast] Error 2
+
+
+
